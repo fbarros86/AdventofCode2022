@@ -6,4 +6,5 @@ with open("input.txt","r") as f:
             elfs.append(acc)
             acc=0
         else: acc+=int(line)
+    elfs.append(acc)
     print(max(elfs))
